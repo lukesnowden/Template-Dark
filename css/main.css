@@ -107,6 +107,6 @@ section h2 {
 h2 + ul + p {
     margin-top: 50px;
 }
-p {
-    margin: 0 0 10.5px;
+p + pre {
+    margin-top: 50px;
 }

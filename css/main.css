@@ -61,6 +61,7 @@ header.navbar {
 
 .page-header {
     margin-top: 0;
+    margin-bottom: 100px;
 }
 
 #sidebar .github-star {

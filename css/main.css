@@ -103,3 +103,10 @@ section h2 {
     margin-bottom: 30px;
     font-size: 28px;
 }
+
+h2 + ul + p {
+    margin-top: 50px;
+}
+p {
+    margin: 0 0 10.5px;
+}

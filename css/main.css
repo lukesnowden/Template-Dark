@@ -110,3 +110,7 @@ h2 + ul + p {
 p + pre {
     margin-top: 50px;
 }
+
+pre + p {
+    margin-top: 50px;
+}

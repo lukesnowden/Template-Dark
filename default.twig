@@ -73,6 +73,15 @@
                 $("section>h1").wrap('<div class="page-header" />');
                 // Syntax highlighting
                 hljs.initHighlightingOnLoad();
+                $('a').click(function(e){
+                    var href = $(this).attr('href');
+                    if( href.substring(0,1) === '#' ) {
+                        e.preventDefault();
+                        $('html, body').animate({
+                            scrollTop: $( href ).offset().top - 30
+                        }, 400);
+                    }
+                });
             });
         </script>
 
